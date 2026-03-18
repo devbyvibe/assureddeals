@@ -724,7 +724,7 @@
                     </div>` : ''}
                     <p class="card-desc">${deal.description}</p>
                     <div class="card-footer">
-                        <span class="card-date">${formatDate(deal.date)}</span>
+                        <span class="card-date">${formatDate(deal.date)}${deal.time ? " · " + deal.time : ""}</span>
                         <a href="${deal.link}" target="_blank" rel="nofollow sponsored" class="check-btn">
                             Check on Amazon
                             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
